@@ -13,3 +13,7 @@ print("Year: ", match.group("year"))
 xmasRegex = re.compile(r'\d+\s\w+')
 xmasRegex.findall('12 drummers, 11 pipers, 10 lords, 9 ladies, 8 maids, 7 swans')
 #['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans']
+
+wholeStringIsNum = re.compile(r'^\d+$')
+wholeStringIsNum.search('1234567890')
+#<re.Match object; span=(0,10), match='1234567890'>

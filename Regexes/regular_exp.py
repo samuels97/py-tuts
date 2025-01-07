@@ -12,4 +12,4 @@ print("Year: ", match.group("year"))
 
 xmasRegex = re.compile(r'\d+\s\w+')
 xmasRegex.findall('12 drummers, 11 pipers, 10 lords, 9 ladies, 8 maids, 7 swans')
-
+#['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 ladies']
